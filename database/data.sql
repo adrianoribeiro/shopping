@@ -1,0 +1,5 @@
+Insert into products (title, type, description, filename, height, width, price, rating) values ("Dell Inspiron", "Computers accessories", "Dell Inspiron 5505 Laptop AMD", "dell-inspiron.jpg" , 450, 678, 5, 5);
+Insert into products (title, type, description, filename, height, width, price, rating) values ("HP Stream 11.6-inch HD Laptop", "Computers accessories", "HP Stream 11.6-inch HD Laptop, Intel Celeron N4000", "hp-stream.jpg", 450, 678, 10, 4);
+Insert into products (title, type, description, filename, height, width, price, rating) values ("MacBook", "Computers accessories", "Macbook Pro 16 Core i7, 16GB RAM, 512GB SSD", "mac.jpg", 450, 678, 15, 5);
+Insert into products (title, type, description, filename, height, width, price, rating) values ("Samsung Galaxy S21", "Electronics", "Samsung Galaxy S21 Ultra 5G Phantom Navy 512GB", "samsung-gs21.jpg", 450, 678, 20, 3);
+Insert into products (title, type, description, filename, height, width, price, rating) values ("Apple iPhone 8 64GB", "Electronics", "Apple iPhone 8 64GB Cinza Espacial", "apple-iphone864.jpg", 450, 678, 25, 5);
