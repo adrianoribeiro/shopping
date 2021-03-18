@@ -1,4 +1,4 @@
-# MarketPlace API (WIP)
+# Shopping (WIP)
 
 It is a Product CRUD (simple test) for known about Go frameworks.  
 
@@ -10,7 +10,7 @@ It is a Product CRUD (simple test) for known about Go frameworks.
 ## How to run
 ### Launch a docker image
 ```
-docker run --name some-mysql -p3306:3306 -e MYSQL_DATABASE=marketPlaceDB -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
+docker run --name some-mysql -p3306:3306 -e MYSQL_DATABASE=shoppingDB -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
 ```
 
 ### If you want you can access docker container

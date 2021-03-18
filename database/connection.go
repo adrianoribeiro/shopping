@@ -14,7 +14,7 @@ var DB *gorm.DB
 func Connect (){
 	//To run mysql
 	//docker run --name some-mysql1 -p3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql:latest
-	dsn := "root:root@tcp(127.0.0.1:3308)/marketPlaceDB?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:root@tcp(127.0.0.1:3308)/shoppingDB?charset=utf8mb4&parseTime=True&loc=Local"
 	connection, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic("Could not connect to database")
